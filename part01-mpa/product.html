@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="../assets/topcoat/css/topcoat-mobile-dark.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left quarter">
+        <a class="topcoat-icon-button--quiet back-button" href="index.html">
+            <span class="topcoat-icon topcoat-icon--back"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
+        <h1 class="topcoat-navigation-bar__title">Belgian Beers</h1>
+    </div>
+</div>
+
+<div class="page-body scroller">
+    <img class="small-pic"/>
+    <h1 class="product-name"></h1><br/>
+    <h2 class="style"></h2><br/>
+
+    <a class="topcoat-icon-button topcoat-button--cta fb-btn">
+    <span class="topcoat-icon icon-facebook"></span>&nbsp;&nbsp;Share
+    </a>
+
+    <ul class='product-list topcoat-list'>
+        <li class="topcoat-list__item">
+            <p>Brewery</p>
+            <p class="brewery"></p>
+        </li>
+
+        <li class="topcoat-list__item">
+            <p>Origin</p>
+            <p class="origin"></p>
+        </li>
+
+        <li class="topcoat-list__item">
+            <p>Color</p>
+            <p class="color"></p>
+        </li>
+
+        <li class="topcoat-list__item">
+            <p>Alc. Vol.</p>
+            <p class="alcohol"></p>
+        </li>
+    </ul>
+
+    <div class="large-pic-bg"></div>
+    <div class="large-pic"></div>
+
+</div>
+
+<script src="../lib/jquery.js"></script>
+<script src="js/adapters/product-memory.js"></script>
+<script src="js/product.js"></script>
+
+</body>
+</html>
