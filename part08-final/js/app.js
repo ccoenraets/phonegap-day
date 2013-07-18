@@ -9,7 +9,7 @@ require.config({
 
     map: {
         '*': {
-            'adapters/product': 'app/adapters/product-websql'
+            'adapters/product': 'app/adapters/product-memory'
         }
     },
     shim: {
